@@ -130,10 +130,6 @@ body {
     margin-bottom: 10px;
     color: white;
 }
-
-.faq-item p {
-    color: #d6e5e6;
-}
 .contact-form {
     max-width: 500px;
     margin: auto;
@@ -160,4 +156,24 @@ body {
     padding: 25px;
     margin-top: 50px;
     color: #E2EDEE;
+}
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    margin-top: 0;
+}
+
+.faq-answer p {
+    margin-top: 10px;
+}
+.faq-question {
+    width: 100%;
+    background: none;
+    border: none;
+    color: white;
+    text-align: left;
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 10px 0;
 }
