@@ -84,3 +84,17 @@ body {
     margin: 0;
     color: white;
 }
+.moment-card {
+    background-color: #09262b;
+    padding: 25px;
+    border-radius: 10px;
+    border-left: 4px solid #87121A;
+    transition: 0.3s;
+    color: #E2EDEE;
+}
+
+.moment-card:hover {
+    transform: translateY(-6px);
+    border-left: 4px solid #0D9988;
+    background-color: #0b2f35;
+}
