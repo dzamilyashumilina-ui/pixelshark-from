@@ -177,3 +177,24 @@ body {
     cursor: pointer;
     padding: 10px 0;
 }
+.section,
+.card,
+.moment-card,
+.faq-item {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease;
+}
+
+.section.show,
+.card.show,
+.moment-card.show,
+.faq-item.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+}
