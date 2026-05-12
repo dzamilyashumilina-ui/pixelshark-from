@@ -154,3 +154,10 @@ body {
     height: 150px;
     resize: none;
 }
+.footer {
+    background-color: #09262b;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+    color: #E2EDEE;
+}
