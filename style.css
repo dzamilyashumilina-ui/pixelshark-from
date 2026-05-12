@@ -62,3 +62,25 @@ body {
     left: 10%;
     transform: translateY(-50%);
 }
+.characters-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background-color: #09262b;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background-color: #0D9988;
+}
+
+.card-content h3 {
+    margin: 0;
+    color: white;
+}
