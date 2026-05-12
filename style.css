@@ -134,3 +134,23 @@ body {
 .faq-item p {
     color: #d6e5e6;
 }
+.contact-form {
+    max-width: 500px;
+    margin: auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: #09262b;
+    color: white;
+}
+
+.contact-form textarea {
+    height: 150px;
+    resize: none;
+}
