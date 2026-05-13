@@ -10,4 +10,4 @@ Tworzenie responsywnych układów stron, które poprawnie wyświetlają się na 
 Konfiguracja Git:
 Napotkałam trudności z autoryzacją konta GitHub w terminalu oraz z poprawnym podpięciem adresu repozytorium (remote origin).
 Zarządzanie gałęziami:
-Zrozumienie różnicy między gałęzią master a main podczas pierwszego wypychania kodu (push).vv
+Zrozumienie różnicy między gałęzią master a main podczas pierwszego wypychania kodu (push).
